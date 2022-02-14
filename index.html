@@ -1,0 +1,136 @@
+
+<!DOCTYPE html><!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  background-color:grey;
+}
+
+.flex-container {
+  display: flex;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.flex-container > div {
+  background-color: yellow;
+  margin: 5px;
+  padding: 5px;
+  font-size: 8px;
+  text-align:center;
+
+}
+
+.flex-container2 {
+  display: flex;
+  background-color: black;
+  flex-direction:column;
+
+}
+
+.flex-container2 > div {
+  background-color: yellow;
+  margin: 5px;
+  padding: 5px;
+  font-size: 8px;
+  text-align:center;
+
+  width:64%;
+  margin-left: 18%;
+  background-color: #008CBA; /* Red */
+  margin-top: 5px;
+
+}
+
+#flex1a{
+  width:10%;
+}
+
+#flex1b{
+  width:70%;
+  background-color: #008CBA;
+}
+
+#flex1c{
+    width:10%;
+}
+
+#flexA{
+  width:64%;
+  margin-left: 18%;
+  background-color: #008CBA; /* Red */
+  margin-top: 5px;
+  display: none;
+}
+
+#flexB{
+  width:64%;
+  margin-left: 18%;
+  background-color: #008CBA; /* Red */
+  margin-top: 5px;
+  display: none;
+}
+
+#flexC{
+  width:64%;
+  margin-left: 18%;
+  background-color: #008CBA; /* Red */
+  margin-top: 5px;
+  display: none;
+}
+
+#flexD{
+  width:64%;
+  margin-left: 18%;
+  background-color: #008CBA; /* Red */
+  margin-top: 5px;
+  display: none;
+}
+
+
+
+
+#flex1b:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+#flexA:hover,#flexB:hover,#flexC:hover, #flexD:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+</style>
+</head>
+
+
+<body class = "body">
+
+<div class="flex-container">
+  <div id="flex1a">Points</div>
+  <button id="flex1b" onclick = "startGame()";>Incipiamus!</button>
+  <div id="flex1c">Timer</div>
+</div>
+
+<div class="flex-container2" >
+  <button id="flexA" onclick = "answerFlexA()";>Alpha</button>
+  <button id="flexB" onclick = "answerFlexB()";>Beta</button>
+  <button id="flexC" onclick = "answerFlexC()";>Gamma</button>
+  <button id="flexD" onclick = "answerFlexD()";>Delta</button>
+</div>
+
+
+
+<script src = "WW5Verb.js" type="text/javascript">
+
+
+</script>
+
+</body>
+</html>
